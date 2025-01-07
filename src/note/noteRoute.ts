@@ -1,7 +1,7 @@
 import express from 'express'
 import createNote from './noteController'
 import multer from 'multer'
-import { storage } from './multerMiddlerware'
+import { storage } from '../middleware/multerMiddlerware'
 
 const noteRoute = express.Router()
 
