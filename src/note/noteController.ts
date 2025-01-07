@@ -28,3 +28,5 @@ const createNote =  async (req:Request,res:Response,next:NextFunction) =>{
     return next(createHttpError('500','Error while creating'))
    }
 }
+
+export default createNote
